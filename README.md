@@ -1,3 +1,8 @@
+# Disclaimer
+
+This project is not yet documented, though it should be usable together with
+[cljs-msgpack-lite](http://github.com/christo-auer/cljs-msgpack-lite).
+
 # Introduction
 
 `cljs-msgpack-mini-rpc` is an implementation of the
@@ -12,17 +17,3 @@ not use `go` at all).
 [cljs-msgpack-lite](https://github.com/christo-auer/cljs-msgpack-lite) for
 encoding and decoding msgpack messages to and from, e.g., streams (see
 [Examples](#examples)).
-
-# Usage
-
-## Add it to your Project
-
-Add
-```clojure
-[cljs-msgpack-mini-rpc "0.1"]
-```
-to your project dependencies (e.g., `project.clj` for leiningen).
-
-## Architecture
-
-
